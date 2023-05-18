@@ -1,9 +1,9 @@
 name: project-env
-python: python>=3.10
 channels:
   - conda-forge
   - defaults
 dependencies:
+  - python>=3.10
   - ipykernel
   - pandas
   - matplotlib
